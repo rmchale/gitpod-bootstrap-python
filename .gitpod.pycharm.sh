@@ -1,3 +1,3 @@
 #! /bin/sh
 
-~/.projector/configs/IntelliJ/run.sh /workspace/gitpod-intellij
+~/.projector/configs/PyCharm/run.sh /workspace/gitpod-intellij
