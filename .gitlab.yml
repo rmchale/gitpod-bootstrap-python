@@ -4,8 +4,8 @@ image:
 # ddev and composer are running as part of the prebuild
 # when starting a workspace all docker images are ready
 tasks:
-  - name: get dependencies
-    prebuild: mvn package
+  - name: requirements
+    prebuild: python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 #tasks:
 #  - name: docker-up
 #    command: sudo docker-up
