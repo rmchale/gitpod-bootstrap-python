@@ -1,3 +1,3 @@
 #! /bin/sh
 
-~/.projector/configs/PyCharm/run.sh /workspace/gitpod-intellij
+~/.projector/configs/PyCharm/run.sh $GITPOD_REPO_ROOT
